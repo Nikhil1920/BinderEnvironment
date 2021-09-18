@@ -1,5 +1,5 @@
 name: environment
-on: push
+on: [push, workflow_dispatch]
 jobs:
     binder:
         runs-on: ubuntu-latest
