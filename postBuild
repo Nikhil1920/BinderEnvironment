@@ -5,3 +5,5 @@ set -euo pipefail
 pyppeteer-install
 
 jupyter serverextension enable --py nbgitpuller --sys-prefix
+
+rm -rf .git .github binder
